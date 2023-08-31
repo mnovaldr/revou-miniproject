@@ -15,6 +15,7 @@ window.onscroll = function() {
     };
 };
 
+// slide image
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -34,19 +35,21 @@ function showDivs(n) {
 
     imgList[slideIndex - 1].style.display = 'block';
 
-    // setInterval(() => {
-    //     plusDivs(1);
-    // }, 3000);
+    setInterval(() => {
+        plusDivs(1);
+    }, 3000);
 }
 
-// const masuk = confirm("Selamat datang di Website saya!");
-// if (masuk) {
-//     let userName = prompt("Masukkan nama Anda dibawah!");
-//     document.getElementById("username").innerText = userName;
-// } else {
-//     alert("Bye-Bye")
-// }
+// Alert nama
+const masuk = confirm("Selamat datang di Website saya!");
+if (masuk) {
+    let userName = prompt("Masukkan nama Anda dibawah!");
+    document.getElementById("username").innerText = userName;
+} else {
+    alert("Bye-Bye")
+}
 
+// message form
 function kirim() {
     // array nama bulan
     const bulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Augustus", "September", "Oktober", "November", "Desember"];
