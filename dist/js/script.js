@@ -37,7 +37,7 @@ function showDivs(n) {
 
     setInterval(() => {
         plusDivs(1);
-    }, 3000);
+    }, 1600);
 }
 
 // Alert nama
@@ -45,8 +45,6 @@ const masuk = confirm("Selamat datang di Website saya!");
 if (masuk) {
     let userName = prompt("Masukkan nama Anda dibawah!");
     document.getElementById("username").innerText = userName;
-} else {
-    alert("Bye-Bye")
 }
 
 // message form

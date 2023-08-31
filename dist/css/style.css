@@ -14,14 +14,31 @@ html {
     .header-wrapper {
         flex-direction: column;
     }
-
     .menu {
         flex-direction: column;
         width: 100%;
     }
-
     .logo {
         margin-bottom: 14px;
+    }
+    .judul h1 {
+        font-size: 18px;
+    }
+    .main-form {
+        width: 100%;
+    }
+    .main-form table {
+        width: 100%;
+    }
+    .main-pesan {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-data {
+        margin: 0px auto;
+    }
+    footer {
+        position: relative;
     }
 }
 .header-wrapper {
